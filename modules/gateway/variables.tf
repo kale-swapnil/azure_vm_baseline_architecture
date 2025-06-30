@@ -1,0 +1,11 @@
+variable "location"                { type = string }
+variable "resource_group_name"     { type = string }
+variable "vnet_id"                 { type = string }
+variable "subnet_id"               { type = string }
+variable "base_name"               { type = string }
+variable "ssl_cert_uri"            { type = string }
+variable "trusted_root_cert_uri"   { type = string }
+variable "public_ip_id"            { type = string }
+variable "domain_name"             { type = string }
+variable "log_analytics_name"      { type = string }
+variable "keyvault_name"           { type = string } 

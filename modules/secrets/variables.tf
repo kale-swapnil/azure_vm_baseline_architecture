@@ -1,0 +1,10 @@
+variable "location"                       { type = string }
+variable "resource_group_name"            { type = string }
+variable "base_name"                      { type = string }
+variable "vnet_id"                        { type = string }
+variable "private_endpoint_subnet_id"     { type = string }
+variable "keyvault_asg_id"                { type = string }
+variable "app_gateway_certificate_base64"{ type = string }
+variable "vmss_public_cert_base64"        { type = string }
+variable "vmss_pfx_base64"                { type = string }
+variable "tags"                  { type = map(string) }

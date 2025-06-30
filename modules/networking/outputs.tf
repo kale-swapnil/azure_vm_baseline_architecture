@@ -1,0 +1,10 @@
+output "vnet_id"                     { value = azurerm_virtual_network.this.id }
+output "frontend_subnet_id"          { value = azurerm_subnet.frontend.id }
+output "backend_subnet_id"           { value = azurerm_subnet.backend.id }
+output "ilb_subnet_id"               { value = azurerm_subnet.ilb.id }
+output "appgw_subnet_id"             { value = azurerm_subnet.appgw.id }
+output "privatelink_subnet_id"       { value = azurerm_subnet.privatelink.id }
+output "deploymentagent_subnet_id"   { value = azurerm_subnet.deploymentagent.id }
+output "bastion_public_ip_id"        { value = azurerm_public_ip.bastion.id }
+output "bastion_host_name"           { value = azurerm_bastion_host.this.name }
+output "appgw_public_ip_id"          { value = azurerm_public_ip.appgw.id }
