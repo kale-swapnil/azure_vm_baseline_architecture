@@ -1,6 +1,6 @@
 # 🚀 Azure VM Baseline Architecture with Terraform
 
-This repository contains a fully modular, production-ready implementation of Microsoft's Azure VM baseline architecture—built entirely with Terraform and designed for real-world scalability, security, and automation.
+This repository contains a fully modular, production-ready implementation of Microsoft's Azure VM baseline architecture, built entirely with Terraform and designed for real-world scalability, security, and automation.
 
 ## 📦 Modules Included
 
